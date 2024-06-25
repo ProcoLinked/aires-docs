@@ -1,0 +1,5 @@
+site_name: AIRES
+
+theme: 
+  name: readthedocs
+  logo: logo.png
