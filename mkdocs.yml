@@ -1,5 +1,30 @@
 site_name: AIRES
 
-theme: 
-  name: readthedocs
+theme:
+  name: material
+  palette:
+    scheme: slate
+    primary: blue
+    accent: cyan
+  font:
+    text: Inter
   logo: logo.png
+  favicon: logo.png
+  features:
+    - navigation.instant
+    - navigation.instant.prefetch
+    - navigation.instant.progress
+    - toc.integrate
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.tasklist
+  - md_in_html
+
+plugins:
+  - search
+  - offline

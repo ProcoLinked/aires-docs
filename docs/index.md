@@ -1,17 +1,10 @@
-# Welcome to MkDocs
+# Welcome
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+AIRES (Automated Inquiry Resolution and Escalation System) is an AI-powered system that serves as the first point of contact in call centers, handling customer inquiries, managing multiple tasks simultaneously, and escalating complex issues to human agents when necessary.
 
-## Commands
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+We have separated the documentation into three main parts:
 
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [System Administrator Manual](admin-manual/index.md)
+- [Agent Manual](agent-manual/index.md)
+- [User Manual](user-manual/index.md)
