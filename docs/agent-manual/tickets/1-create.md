@@ -49,27 +49,3 @@ When creating tickets manually, keep these tips in mind:
 3. If creating a ticket for an escalated call, make sure to note any previous interactions or ticket numbers related to the issue
 
 Remember, manual ticket creation should be the exception rather than the rule. Always rely on AIRES for standard ticket creation unless special circumstances require your intervention.
-
-
-feat: documentation content, better structure
-
-
-This commit introduces several changes to improve the documentation structure and user interface:
-
-1. Theme and UI Enhancements:
-   - Changed primary color from blue to black in mkdocs.yml
-   - Added navigation tabs and footer
-   - Removed table of contents integration
-   - Enabled emoji support
-
-2. Content Expansion and Refinement:
-   - Rewrote and expanded "Navigating Your Workspace" (docs/agent-manual/2-tour.md)
-     * Added detailed explanations of dashboard, recent tickets, and ticket details
-     * Included sections on AI Assistant functionality and ticket management
-   - Rewrote "Creating Tickets" (docs/agent-manual/tickets/2-create.md)
-     * Clarified standard procedures and manual ticket creation processes
-     * Added best practices for manual ticket creation
-   - Rewrote "Following Up on Tickets" (docs/agent-manual/tickets/3-follow-up.md)
-     * Expanded on article types and their significance
-     * Detailed processes for taking over from AIRES and following up on different ticket types
-     * Added section on SLA management and best practices for follow-ups
