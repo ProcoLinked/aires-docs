@@ -4,7 +4,7 @@ theme:
   name: material
   palette:
     scheme: slate
-    primary: blue
+    primary: black
     accent: cyan
   font:
     text: Inter
@@ -14,7 +14,9 @@ theme:
     - navigation.instant
     - navigation.instant.prefetch
     - navigation.instant.progress
-    - toc.integrate
+    - navigation.footer
+    - navigation.tabs
+    # - toc.integrate
 
 markdown_extensions:
   - attr_list
@@ -23,6 +25,9 @@ markdown_extensions:
   - pymdownx.superfences
   - pymdownx.tabbed
   - pymdownx.tasklist
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - md_in_html
 
 plugins:

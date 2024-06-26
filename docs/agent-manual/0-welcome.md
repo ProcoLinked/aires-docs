@@ -17,10 +17,10 @@ AIRES is designed to enhance your capabilities, providing real-time assistance d
 
 ### Key Features
 
-- Voice-activated AI assistant
+- AI assistant with web capabilities
 - Real-time call transcription and analysis
-- Sentiment analysis for better customer understanding
-- Knowledge base integration for quick information retrieval
+- Frustration and Sentiment index
+- AI Knowledge base integration for quick information retrieval
 
 
 Get ready to redefine excellence in customer support!
